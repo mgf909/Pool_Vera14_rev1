@@ -1,5 +1,5 @@
  \
- C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\MyMessage.cpp.o:  \
+ C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\MyMessage.cpp.o:  \
  D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\MySensors\MyMessage.cpp \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\MySensors\/MyMessage.h \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\hardware\arduino\cores\arduino/Arduino.h \

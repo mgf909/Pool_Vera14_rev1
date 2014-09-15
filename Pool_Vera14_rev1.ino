@@ -143,7 +143,7 @@ int statuscode; // a number for each of the above 0-9
 #define pH_CHILD_ID 3		// Id of the sensor child
 #define prt_CHILD_ID 4		//id of the PumpRunTime child
 #define hcl_CHILD_ID 5		//id of the Acid Pump Runtime child
-#define Pump_CHILD_ID 6		//id of the Acid Pump Runtime child
+#define Pump_CHILD_ID 6		//id of the Pump Overide switch child
 
 unsigned long lastConnectionTime = 0;          // last time you connected to the server, in milliseconds
 const unsigned long postingInterval = 20000;  // 20s delay between updates to Vera
@@ -153,11 +153,12 @@ const unsigned long postingInterval = 20000;  // 20s delay between updates to Ve
 MySensor gw;
 
 // Initialize temperature message
-MyMessage roofTempmsg(Roof_CHILD_ID, S_TEMP);
-MyMessage poolTempmsg(Pool_CHILD_ID, S_TEMP);
-MyMessage pHValuemsg(pH_CHILD_ID, S_TEMP);
-MyMessage prtValuemsg(prt_CHILD_ID, S_TEMP);
-MyMessage hclValuemsg(hcl_CHILD_ID, S_TEMP);
+MyMessage roofTempmsg(Roof_CHILD_ID, V_TEMP);
+MyMessage poolTempmsg(Pool_CHILD_ID, V_TEMP);
+MyMessage pHValuemsg(pH_CHILD_ID, V_TEMP);
+MyMessage prtValuemsg(prt_CHILD_ID, V_TEMP);
+MyMessage hclValuemsg(hcl_CHILD_ID, V_TEMP);
+MyMessage PumpCntrlmsg(Pump_CHILD_ID, V_LIGHT);
 
 
 
@@ -167,7 +168,9 @@ void setup(void)
 {
 
 // Startup and initialize MySensors library. Set callback for incoming messages.
-gw.begin();
+
+  gw.begin(incomingMessage,5); //ID is 5
+
 
 // Send the Sketch Version Information to the Gateway
 gw.sendSketchInfo(sketch_name, sketch_ver);
@@ -212,18 +215,6 @@ setSyncProvider(RTC.get);
 }
 
 
-//send the Values to Vera  - sends only every 30sec
-void sendData( float roofTemp,float poolTemp, float pH, int pTime,int acidTime) {
-	//Should only send every 30 secs
-	gw.send(roofTempmsg.set(roofTemp, 1));
-	gw.send(poolTempmsg.set(poolTemp, 1));
-	gw.send(pHValuemsg.set(avgMeasuredPH, 1));
-	gw.send(prtValuemsg.set((pTime/60 )));
-	gw.send(hclValuemsg.set((acidTime/60)));
-	// note the time that the connection was made or attempted:
-	lastConnectionTime = millis();
-
-}
 
 
 
@@ -238,53 +229,6 @@ boolean IsRemoteOnOff() {
 }
 
 
-/*
-void setRelayStatus(message_s message) {
-  if (message.header.type==V_LIGHT) { // This could be M_ACK_VARIABLE or M_SET_VARIABLE
-     veraSwitchstate = atoi(message.data);
-     // Change relay state
-     //digitalWrite(RELAY_PIN, state==1?RELAY_ON:RELAY_OFF);
-     veraRemote = veraSwitchstate==1?TRUE:FALSE;
-     // Write some debug info
-     Serial.print(message.header.messageType == M_ACK_VARIABLE ? "Button":"Gateway");
-     Serial.print(" change. New state: ");
-     Serial.println(veraSwitchstate == 1 ?"on":"off" );
-     
-   }
-if (message.header.type==I_TIME) { // This could be M_ACK_VARIABLE or M_SET_VARIABLE
-veraTime=atol(message.data);
-Serial.print("Time from Vera : ");
-Serial.println(veraTime); //this is the time
-//do some check too see if thertc needs setting
-
-
- }
-   
-}
-
-//This section is for setting the time from Vera
-
-unsigned long  getTime() {
-  return veraTime; // Vera is time provider
-}
-
-//Fetch the time from Vera
-void requestTime() {
- return gw.requestTime(); // Vera is time provider - so use RequestTime and look for it with message availible
-}
-
-void SetTime() {  //get the time from vera and set RTC
-   Serial.println("Time needs to be synced"); 
-   tm.Hour = hour();
-   tm.Minute = minute();
-   tm.Second = second();
-   tm.Day = day();
-   tm.Month = month();
-   tm.Year = CalendarYrToTm(year());
-  RTC.write(tm);
-}
-*/
-
 
 void loop(void)
 { 
@@ -293,7 +237,9 @@ void loop(void)
 
   VeraCounter ++; //this counter for requesting data only periodically
     
-
+  gw.process();
+  
+  
  if (VeraCounter == 30){
    gw.requestTime(receiveTime);  //Ask Vera for the time
 

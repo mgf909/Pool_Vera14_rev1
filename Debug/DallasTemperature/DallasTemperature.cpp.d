@@ -1,5 +1,5 @@
  \
- C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\DallasTemperature\DallasTemperature.cpp.o:  \
+ C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\DallasTemperature\DallasTemperature.cpp.o:  \
  D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\DallasTemperature\DallasTemperature.cpp \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\DallasTemperature\/DallasTemperature.h \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\OneWire/OneWire.h \

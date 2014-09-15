@@ -1,123 +1,12 @@
 <VisualMicro>
   <Program Name="Pool_Vera14_rev1" Ext=".ino" Location="C:\Users\greg\Google Drive\Arduino\Pool_Vera14_rev1">
     <Platform Name="arduino10x" Package="arduino" Platform="avr" Architecture="avr">
-      <Board Name="nano328" Description="Arduino Nano w/ ATmega328" CoreFolder="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\cores\arduino" VariantFullPath="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\variants\eightanaloginputs" McuIdePath="D:\arduino\arduino-1.0.5- Mysensors1.4" McuSketchBookPath="C:\Users\greg\Google Drive\Arduino" name="Arduino Nano w/ ATmega328" upload.protocol="arduino" upload.maximum_size="30720" upload.speed="57600" bootloader.low_fuses="0xFF" bootloader.high_fuses="0xDA" bootloader.extended_fuses="0x05" bootloader.path="atmega" bootloader.file="ATmegaBOOT_168_atmega328.hex" bootloader.unlock_bits="0x3F" bootloader.lock_bits="0x0F" build.mcu="atmega328p" build.f_cpu="16000000L" build.core="arduino" build.variant="eightanaloginputs" runtime.ide.path="D:\arduino\arduino-1.0.5- Mysensors1.4" build.system.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\system" runtime.ide.version="105" originalid="nano328" vm.platform.root.path="C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\arduino10x" build.core.vmresolved="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\cores\arduino" build.core.parentfolder.vmresolved="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\cores" build.core.coresparentfolder.vmresolved="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino" vm.core.include="arduino.h" ide.hint="Arduino 0023 and 1.0.x Ide" ide.location.key="Arduino" ide.location.ide.winreg="Arduino 1.0.x Application" ide.location.sketchbook.winreg="Arduino 1.0.x Sketchbook" ide.location.sketchbook.preferences="sketchbook.path" ide.location.sketchbook.default="%MYDOCUMENTS%\arduino" ide.location.preferences="%VM_APPDATA_ROAMING%\arduino\preferences.txt" ide.default.package="arduino" ide.default.platform="avr" ide.multiplatform="true" ide.includes="arduino.h" ide.platformswithoutpackage="true" ide.includes.fallback="wprogram.h" ide.extension="ino" ide.extension.fallback="pde" ide.versionLTEQ="149" ide.exe="arduino.exe" ide.hosts="atmel" ide.url="http://arduino.cc/en/Main/Software" vm.debug="true" software="ARDUINO" ide.appid="arduino10x" location.sketchbook="C:\Users\greg\Google Drive\Arduino" build.board="AVR_NANO328" vm.boardsource.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino" vm.platformname.name="avr" build.arch="AVR" build.variant.vmresolved="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\variants\eightanaloginputs" vm.runtime.compiler.showwarnings="false" compiler.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\tools\avr\bin\" includes=" -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\cores\arduino&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\variants\eightanaloginputs&quot;  -I&quot;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers\VM_DBG&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\DS1307RTC&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\OneWire&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\DallasTemperature&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\bv4208&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\EEPROM&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\SPI&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\Time&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\Wire&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\MySensors&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\libraries&quot;  -I&quot;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers&quot;  -I&quot;C:\Users\greg\Google Drive\Arduino\libraries&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\Wire\utility&quot; -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\MySensors\utility&quot;" build.path="C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328" build.project_name="Pool_Vera14_rev1" build.variant.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\variants\eightanaloginputs" archive_file="core.a" object_file="C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\utility\RF24.cpp.o" source_file="D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\MySensors\utility\RF24.cpp" build.architecture="avr" vmresolved.compiler.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\tools\avr\bin\" vmresolved.tools.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\tools\avr" object_files="&quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\Pool_Vera14_rev1.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\VM_DBG\VM_mem_check.c.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\VM_DBG\VM_DBG.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\DS1307RTC\DS1307RTC.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\OneWire\OneWire.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\DallasTemperature\DallasTemperature.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\bv4208\bv4208.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\bv4208\I2c_bv.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\EEPROM\EEPROM.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\SPI\SPI.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\Time\DateStrings.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\Time\Time.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\Wire\Wire.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\Wire\utility\twi.c.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\MyGateway.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\MyMessage.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\MyMQTT.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\MySensor.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\utility\LowPower.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\utility\MsTimer2.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\utility\RF24.cpp.o&quot; " />
+      <Board Name="nano328O" Description="Arduino Nano w/ ATmega328 &amp; Optiboot" CoreFolder="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\cores\arduino" VariantFullPath="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\variants\eightanaloginputs" McuIdePath="D:\arduino\arduino-1.0.5- Mysensors1.4" McuSketchBookPath="C:\Users\greg\Google Drive\Arduino" name="Arduino Nano w/ ATmega328 &amp; Optiboot" upload.protocol="arduino" upload.maximum_size="32256" upload.speed="115200" bootloader.low_fuses="0xFF" bootloader.high_fuses="0xDE" bootloader.extended_fuses="0x05" bootloader.path="optiboot" bootloader.file="optiboot_atmega328.hex" bootloader.unlock_bits="0x3F" bootloader.lock_bits="0x0F" build.mcu="atmega328p" build.f_cpu="16000000L" build.core="arduino" build.variant="eightanaloginputs" runtime.ide.path="D:\arduino\arduino-1.0.5- Mysensors1.4" build.system.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\system" runtime.ide.version="105" originalid="nano328O" vm.platform.root.path="C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\arduino10x" build.core.vmresolved="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\cores\arduino" build.core.parentfolder.vmresolved="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\cores" build.core.coresparentfolder.vmresolved="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino" vm.core.include="arduino.h" ide.hint="Arduino 0023 and 1.0.x Ide" ide.location.key="Arduino" ide.location.ide.winreg="Arduino 1.0.x Application" ide.location.sketchbook.winreg="Arduino 1.0.x Sketchbook" ide.location.sketchbook.preferences="sketchbook.path" ide.location.sketchbook.default="%MYDOCUMENTS%\arduino" ide.location.preferences="%VM_APPDATA_ROAMING%\arduino\preferences.txt" ide.default.package="arduino" ide.default.platform="avr" ide.multiplatform="true" ide.includes="arduino.h" ide.platformswithoutpackage="true" ide.includes.fallback="wprogram.h" ide.extension="ino" ide.extension.fallback="pde" ide.versionLTEQ="149" ide.exe="arduino.exe" ide.hosts="atmel" ide.url="http://arduino.cc/en/Main/Software" vm.debug="true" software="ARDUINO" ide.appid="arduino10x" location.sketchbook="C:\Users\greg\Google Drive\Arduino" build.board="AVR_NANO328O" vm.boardsource.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino" vm.platformname.name="avr" build.arch="AVR" build.variant.vmresolved="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\variants\eightanaloginputs" vm.runtime.compiler.showwarnings="false" compiler.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\tools\avr\bin\" includes=" -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\cores\arduino&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\variants\eightanaloginputs&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\DS1307RTC&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\OneWire&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\DallasTemperature&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\bv4208&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\EEPROM&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\SPI&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\Time&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\Wire&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\MySensors&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\libraries&quot;  -I&quot;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers&quot;  -I&quot;C:\Users\greg\Google Drive\Arduino\libraries&quot;  -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\Wire\utility&quot; -I&quot;D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\MySensors\utility&quot;" build.path="C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O" build.project_name="Pool_Vera14_rev1" build.variant.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\arduino\variants\eightanaloginputs" archive_file="core.a" object_file="C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\utility\RF24.cpp.o" source_file="D:\arduino\arduino-1.0.5- Mysensors1.4\libraries\MySensors\utility\RF24.cpp" object_files="&quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\Pool_Vera14_rev1.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\DS1307RTC\DS1307RTC.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\OneWire\OneWire.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\DallasTemperature\DallasTemperature.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\bv4208\bv4208.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\bv4208\I2c_bv.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\EEPROM\EEPROM.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\SPI\SPI.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\Time\DateStrings.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\Time\Time.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\Wire\Wire.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\Wire\utility\twi.c.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\MyGateway.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\MyMessage.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\MyMQTT.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\MySensor.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\utility\LowPower.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\utility\MsTimer2.cpp.o&quot; &quot;C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\utility\RF24.cpp.o&quot; " build.architecture="avr" vmresolved.compiler.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\tools\avr\bin\" vmresolved.tools.path="D:\arduino\arduino-1.0.5- Mysensors1.4\hardware\tools\avr" />
     </Platform>
-    <Compile CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328" IsDebugStart="1" SketchName="Pool_Vera14_rev1" ReportDigitalPins="0" ReportAnalogPins="0" ReportI2C="0" ReportFreeMemory="0" IncludeDebug="1" LastDebugPreProcessorDefinitions="VM_DEBUG;VM_DEBUG_ENABLE 1;VM_DEBUG_BANDWIDTH_THROTTLE_MS 100;VM_DEBUGGER_TYPE_HARDWARESERIAL 0;VM_DEBUGGER_TYPE_SOFTWARESERIAL 1;VM_DEBUGGER_TYPE_FASTSERIAL 2;VM_DEBUGGER_TYPE_USB 3;VM_DEBUGGER_TYPE_TEENSY 4;VM_DEBUGGER_TYPE_UART 5;VM_DEBUGGER_TYPE_USART 6;VM_DEBUGGER_TYPE_USBSERIAL 7;VM_DEBUGGER_TYPE_TTYUART 8;VM_DEBUGGER_TYPE_NET_CONSOLE 9;VM_DEBUGGER_TYPE VM_DEBUGGER_TYPE_HARDWARESERIAL;VM_DEBUG_BREAKPAUSE;" IncludesDebug="1" IsCompiled="1" />
-    <Debug EnableBreak="1" DebugEnabled="1" DebugMode="Full" />
+    <Compile CompilerErrors="0" ConfigurationName="Release" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O" IsDebugStart="1" IncludeDebug="0" IncludesDebug="0" SketchName="Pool_Vera14_rev1" IsCompiled="1" />
+    <Debug DebugEnabled="0" EnableBreak="1" />
     <VCCodeModel>
       <VCCodeMacros />
     </VCCodeModel>
-    <BreakPoints>
-      <BreakPoint Index="1" Name="Pool_Vera14_rev1.ino, line 289 character 1" Id="da2c3732-b326-4e87-bf5a-7391bba25d45" Enabled="0" Message="millis is currently {millis()}" MessageTextType="0" PreProcessedMessage="millis is currently {0}" Condition="millis()&gt;0 || millis()&gt;1" ConditionType="1" CurrentHits="0" File="c:\users\greg\google drive\arduino\pool_vera14_rev1\pool_vera14_rev1.ino" FileLine="289" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="250" HitCountType="4" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='da2c3732-b326-4e87-bf5a-7391bba25d45'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="1">
-        <Source>282	   tm.Month = month();
-283	   tm.Year = CalendarYrToTm(year());
-284	  RTC.write(tm);
-285	}
-286	*/
-287	
-288	
---&gt;289	void loop(void)
-290	{ 
-291	   
-292	  loopstartmillis = millis(); //start a counter for the pump runtimes  
-293	
-294	  VeraCounter ++; //this counter for requesting data only periodically
-295	    
-296	
-297	 if (VeraCounter == 30){
-298	   gw.requestTime(receiveTime);  //Ask Vera for the time
-</Source>
-        <MessageVariables>
-          <MessageVariable Name="millis()" Index="1" />
-        </MessageVariables>
-      </BreakPoint>
-      <BreakPoint Index="2" Name="Pool_Vera14_rev1.ino, line 559 character 1" Id="eff46332-d9ba-425a-aa27-6774ea28108d" Enabled="0" Message="" MessageTextType="2" PreProcessedMessage="" Condition="" ConditionType="1" CurrentHits="0" File="c:\users\greg\google drive\arduino\pool_vera14_rev1\pool_vera14_rev1.ino" FileLine="559" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='eff46332-d9ba-425a-aa27-6774ea28108d'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="1">
-        <Source>552	
-553	
-554	
-555	
-556	
-557	  //Generate the Pump Runtime for how long the pump needs to run each day.
-558	  if (filterpumpRunning == true){
---&gt;559			loopTime = (millis() - loopstartmillis)/1000; //calculate how long the loop took to run
-560			pumpRunTime =(pumpRunTime+loopTime); //calculate the new pumpRunTime value
-561	  }
-562	 
-563	}  //end of sketch
-564	
-565	
-566	
-567	
-568	
-</Source>
-      </BreakPoint>
-      <BreakPoint Index="3" Name="Pool_Vera14_rev1.ino, line 560 character 1" Id="15969a10-9433-4961-b645-4e11d6013641" Enabled="0" Message="" MessageTextType="2" PreProcessedMessage="" Condition="" ConditionType="1" CurrentHits="0" File="c:\users\greg\google drive\arduino\pool_vera14_rev1\pool_vera14_rev1.ino" FileLine="560" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='15969a10-9433-4961-b645-4e11d6013641'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="1">
-        <Source>553	
-554	
-555	
-556	
-557	  //Generate the Pump Runtime for how long the pump needs to run each day.
-558	  if (filterpumpRunning == true){
-559			loopTime = (millis() - loopstartmillis)/1000; //calculate how long the loop took to run
---&gt;560			pumpRunTime =(pumpRunTime+loopTime); //calculate the new pumpRunTime value
-561	  }
-562	 
-563	}  //end of sketch
-564	
-565	
-566	
-567	
-568	
-569	
-</Source>
-      </BreakPoint>
-      <BreakPoint Index="4" Name="Pool_Vera14_rev1.ino, line 292 character 1" Id="67613185-7862-4850-ac00-1f1a752bb638" Enabled="1" Message="loopstart is {loopstartmillis}" MessageTextType="0" PreProcessedMessage="loopstart is {0}" Condition="" ConditionType="1" CurrentHits="0" File="c:\users\greg\google drive\arduino\pool_vera14_rev1\pool_vera14_rev1.ino" FileLine="292" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='67613185-7862-4850-ac00-1f1a752bb638'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="0">
-        <Source>285	}
-286	*/
-287	
-288	
-289	void loop(void)
-290	{ 
-291	   
---&gt;292	  loopstartmillis = millis(); //start a counter for the pump runtimes  
-293	
-294	  VeraCounter ++; //this counter for requesting data only periodically
-295	    
-296	
-297	 if (VeraCounter == 30){
-298	   gw.requestTime(receiveTime);  //Ask Vera for the time
-299	
-300	//   gw.getStatus(Pool_CHILD_ID, V_VAR1); //does getStatus hang the sketch if vera offline? - use request status instead..
-301	//   TempStatus(gw.getMessage());
-</Source>
-        <MessageVariables>
-          <MessageVariable Name="loopstartmillis" Index="1" />
-        </MessageVariables>
-      </BreakPoint>
-      <BreakPoint Index="5" Name="Pool_Vera14_rev1.ino, line 294 character 1" Id="9bb10849-f2c7-4df5-a06e-a0d895372b19" Enabled="1" Message="Vera Counter is {VeraCounter}" MessageTextType="0" PreProcessedMessage="Vera Counter is {0}" Condition="" ConditionType="1" CurrentHits="0" File="c:\users\greg\google drive\arduino\pool_vera14_rev1\pool_vera14_rev1.ino" FileLine="294" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='9bb10849-f2c7-4df5-a06e-a0d895372b19'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="0">
-        <Source>287	
-288	
-289	void loop(void)
-290	{ 
-291	   
-292	  loopstartmillis = millis(); //start a counter for the pump runtimes  
-293	
---&gt;294	  VeraCounter ++; //this counter for requesting data only periodically
-295	    
-296	
-297	 if (VeraCounter == 30){
-298	   gw.requestTime(receiveTime);  //Ask Vera for the time
-299	
-300	//   gw.getStatus(Pool_CHILD_ID, V_VAR1); //does getStatus hang the sketch if vera offline? - use request status instead..
-301	//   TempStatus(gw.getMessage());
-302	//    gw.getStatus(CHILD_ID_TEMP, V_VAR2);
-303	//    LowStatus(gw.getMessage());
-</Source>
-        <MessageVariables>
-          <MessageVariable Name="VeraCounter" Index="1" />
-        </MessageVariables>
-      </BreakPoint>
-    </BreakPoints>
   </Program>
 </VisualMicro>

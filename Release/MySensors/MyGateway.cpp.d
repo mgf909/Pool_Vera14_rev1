@@ -1,5 +1,5 @@
  \
- C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\MySensors\MyGateway.cpp.o:  \
+ C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\MySensors\MyGateway.cpp.o:  \
  D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\MySensors\MyGateway.cpp \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\MySensors\/MyGateway.h \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\MySensors\/MySensor.h \

@@ -1,6 +1,6 @@
  \
- C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\Pool_Vera14_rev1.cpp.o:  \
- C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\Pool_Vera14_rev1.cpp \
+ C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\Pool_Vera14_rev1.cpp.o:  \
+ C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\Pool_Vera14_rev1.cpp \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\DS1307RTC/DS1307RTC.h \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\Time/Time.h \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\OneWire/OneWire.h \

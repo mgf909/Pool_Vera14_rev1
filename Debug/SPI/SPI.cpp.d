@@ -1,5 +1,5 @@
  \
- C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328\SPI\SPI.cpp.o:  \
+ C:\Users\greg\AppData\Local\VMicro\Arduino\Builds\Pool_Vera14_rev1\nano328O\SPI\SPI.cpp.o:  \
  D:\arduino\arduino-1.0.5-\ Mysensors1.4\libraries\SPI\SPI.cpp \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\hardware\arduino\variants\eightanaloginputs/pins_arduino.h \
   D:\arduino\arduino-1.0.5-\ Mysensors1.4\hardware\arduino\variants\eightanaloginputs/../standard/pins_arduino.h \
