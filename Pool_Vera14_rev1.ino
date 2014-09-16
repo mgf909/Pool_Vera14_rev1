@@ -99,7 +99,7 @@ boolean filterpumpRunning = false;
 boolean solarpumpRunning = false;
 boolean veraRemote = false;
 boolean timeReceived = false;
-
+int lastUpdate=0, lastRequest=0;
 
 int VeraCounter = 0; //counter for Vera update period
 
@@ -177,6 +177,7 @@ gw.sendSketchInfo(sketch_name, sketch_ver);
 
 
 setSyncProvider(RTC.get);
+
 //setSyncInterval(3600);  // get time from gw every hour
 
 // Register all sensors to gw (they will be created as child devices)
@@ -207,26 +208,12 @@ setSyncProvider(RTC.get);
   dallasSensors.setResolution(poolThermometer, 12);
   dallasSensors.setResolution(roofThermometer, 12);
 
-setSyncProvider(RTC.get); 
-//setSyncInterval(3600);  // get time from gw every hour
-
 
 //End of setup
 }
 
 
 
-
-
-//change this to use a pushbutton so i can just toggle the state!
-boolean IsRemoteOnOff() {  
-  if ( digitalRead(remotePin) == HIGH || veraRemote == TRUE  ) {
-   return true;
-  }
-  else {
-    return false;   
-  }
-}
 
 
 
@@ -257,15 +244,25 @@ void loop(void)
     VeraCounter = 0;
   }
 
-
+/*
 //Sync the time with Vera - typically for DST changes.
  //if ((tm.Wday = 1) && (tm.Hour = 23) | (hour() != tm.Hour)) {
  if (currentHour != tm.Hour) {
   Serial.println(" Syncing time with Vera");
   SetTime();
  }
+*/
 
 
+ // If no time has been received yet, request it every 10 second from controller
+ // When time has been received, request update every hour
+ if ((!timeReceived && now-lastRequest > 10*1000)
+ || (timeReceived && now-lastRequest > 60*1000*60)) {
+	 // Request time from controller.
+	 Serial.println("requesting time");
+	 gw.requestTime(receiveTime);
+	 lastRequest = now;
+ }
 
 
 

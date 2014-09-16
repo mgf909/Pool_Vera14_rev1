@@ -11,6 +11,20 @@ void sendData( float roofTemp,float poolTemp, float pH, int pTime,int acidTime) 
 
 }
 
+
+//change this to use a pushbutton so i can just toggle the state!
+boolean IsRemoteOnOff() {
+	if ( digitalRead(remotePin) == HIGH || veraRemote == TRUE  ) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+
+
+
 void incomingMessage(const MyMessage &message) {
 	// We only expect one type of message from controller. But we better check anyway.
 	if (message.isAck()) {

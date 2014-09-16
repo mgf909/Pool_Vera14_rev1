@@ -18,7 +18,6 @@
 extern "C" void __cxa_pure_virtual() {;}
 
 void setup(void);
-boolean IsRemoteOnOff();
 void loop(void);
 void startAcidPump();
 void stopAcidPump();
@@ -35,9 +34,9 @@ void printStatus(int statusCode);
 void printPHInfo(float ph);
 void printAcidtime(int acidTime);
 void printPtime(int pTime);
-void SetTime();
-void receiveTime(unsigned long VeraTime);
+void receiveTime(unsigned long controllerTime);
 void sendData( float roofTemp,float poolTemp, float pH, int pTime,int acidTime);
+boolean IsRemoteOnOff();
 void incomingMessage(const MyMessage &message);
 boolean IsItWinter();
 boolean IsOffPeak();
